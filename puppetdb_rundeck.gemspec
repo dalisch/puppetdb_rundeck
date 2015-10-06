@@ -27,6 +27,7 @@ with rundeck}
   spec.add_development_dependency 'builder'
 
   spec.add_runtime_dependency 'json_pure', '~> 1.8'
+  spec.add_runtime_dependency 'rack', '1.6.2'
   spec.add_runtime_dependency 'tilt', '~> 1.3'
   spec.add_runtime_dependency 'sinatra', '~> 1.4'
   spec.add_runtime_dependency 'haml', '~> 4.0'
